@@ -1,0 +1,39 @@
+functions:block of code
+2 ways of calling function
+
+a)by creating object
+Eg:public class Main{
+void name(){
+S.O.P(" ");
+}public static void main(String[] args){
+Main m=new Main();
+m.name();
+}
+
+b)by static keyword
+Eg:public class Main{
+static void name(){
+S.O.P(" ");
+}public static void main(String[] args){
+name();
+}
+
+static:if we want to call a function without creating function
+
+public class Main{
+static String name(){
+return "name";}
+}public static void main(String[] args){
+S.O.P(name());
+}
+
+arguments,parameters
+
+String-function
+return a+" "+b;
+
+1.check even or odd using function
+2.find larger no among two using function
+3.find largest no among three
+4.check the no is prime no or not
+5.check the letter is ovels or not

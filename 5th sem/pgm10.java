@@ -1,0 +1,13 @@
+class pgm10{
+public static void main(String[] args){
+String str="sahana123";
+int count=0;
+for(int i=0;i<str.length();i++)
+{
+if(str.charAt(i)>=48&&str.charAt(i)<=57)
+{
+count=count+(int)str.charAt(i)-48;
+}
+}
+System.out.print(count);
+}}
